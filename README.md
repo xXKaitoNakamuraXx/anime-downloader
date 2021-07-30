@@ -10,6 +10,8 @@ simple! Just install the requirements with:
 pip3 install requirements.txt
 (or just pip if you prefer)
 
+download the geckodriver for firefox and export to your path
+
 then run:
 python3 selenium_scraper.py
 
