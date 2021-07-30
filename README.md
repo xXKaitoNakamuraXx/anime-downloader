@@ -12,6 +12,8 @@ pip3 install requirements.txt
 
 download the geckodriver for firefox and export to your path
 
+add your credetials to log in to gogoanime.vc to the script where labled
+
 then run:
 python3 selenium_scraper.py
 
