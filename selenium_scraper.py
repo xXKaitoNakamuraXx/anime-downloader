@@ -7,7 +7,7 @@ import time
 
 ####################################
 # Login to site with user creds to #
-# 		enable downloads		   #
+#       enable downloads           #
 ####################################
 
 print("Logging In...\n")
@@ -21,10 +21,10 @@ def login():
 		login = s.get('https://gogoanime.vc/login.html')
 		auth = s.find_element_by_name("email")
 		auth.clear()
-		auth.send_keys("ghidra42@gmail.com")
+		auth.send_keys("YOUR EMAIL")
 		passw = s.find_element_by_name("password")
 		passw.clear()
-		passw.send_keys("gogoanime")
+		passw.send_keys("YOUR PASSWORD")
 		passw.send_keys(Keys.RETURN)
 		print("Your all logged in Chief!!!\n")
 	except:
@@ -48,9 +48,9 @@ for url in urls:
 	
 
 #####################################
-#									#
-#	go to url and get download link #
-#									#
+#	           		    #
+#   go to url and get download link #
+#				    #
 #####################################
 # go to url and parse out resolution 
 	s.get(url)
