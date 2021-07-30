@@ -7,7 +7,7 @@ Ok so how does it work?
 
 simple! Just install the requirements with:
 
-<addr> pip3 install requirements.txt
+pip3 install requirements.txt
 (or just pip if you prefer)
 
 then run:
